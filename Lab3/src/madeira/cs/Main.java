@@ -1,10 +1,22 @@
+
 package madeira.cs;
+
+//sHardee
 
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Scanner;
 
 public class Main {
+    /*
+        Grades and comments below
+        -------------------------
+        Susanna -
+        This is excellent. Your code is quite well organized and runs well!
+        I would add a few comments next time but otherwise super work!
+
+        10/10
+    */
 
     public static void main(String[] args) {
 
@@ -116,8 +128,9 @@ public class Main {
 
 
         int year_leap;
+        // look at you! arrays! woo! 
         int[] month_day = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-
+        // love the handling of leap years
         if (birthyear % 4 == 0 && birthyear % 100 != 0 || birthyear % 400 == 0) {
             year_leap = 366;
             month_day[1] = 29;
