@@ -4,6 +4,15 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class SuperLab {
+    /*
+        Susanna -
+        This is great work! You made appropriate use of class methods
+        and were succinct in your code. Only suggestions are:
+        1. Add comments!
+        2. Use the setRating() method once you scan user rating
+
+        Regardless, you should be proud of this...proper programming!
+    */
     public static void main(String[] args) {
         try {
             File myobject = new File("artistList.txt");
